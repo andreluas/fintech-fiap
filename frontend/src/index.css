@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@200;300;400;500;600&family=Kreon:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+:root {
+    --color-primary: #E96464;
+    --color-secundary: #FFFFFF;
+}
+
+html, body {
+    height: 100%;
+    font-family: "Roboto", sans-serif;
+    background-color: var(--color-secundary);
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.bg-primary {
+    background-color: var(--color-primary) !important;
+}
+
+.text-primary {
+    color: var(--color-primary) !important;
+}
+
+a {
+    text-decoration: none;
+}
