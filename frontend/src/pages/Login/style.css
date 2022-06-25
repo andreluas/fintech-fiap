@@ -97,7 +97,7 @@
 .info-obj {
     font-family: 'Roboto';
     font-size: 25px;
-    width: 350px;
+    width: 100%;
     font-weight: 400;
     color: rgb(26, 26, 26);
     border: none;

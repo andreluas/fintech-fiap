@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import 'pages/Login/style.css';
 
 function Login() {
@@ -22,13 +23,13 @@ function Login() {
                             <p className="login-paragraph">SIGN IN</p>
                         </div>
                         <div className="credentials-info">
-                            <input type="text" className="info-obj email-paragraph" placeholder="username" />
+                            <input type="email" className="info-obj email-paragraph" placeholder="email" />
                             <input type="password" className="info-obj password-paragraph" placeholder="password" />
                         </div>
                     </div>
                     <div className="btn-login-container">
                         <a href="" className="btn-login">Login</a>
-                        <a href="" className="create-acount">Não tem conta? <span className="create-acount-effect">Cadastre-se</span></a>
+                            <a href="" className="create-acount">Não tem conta? <span className="create-acount-effect"><Link to='/cadastro' className='link'>Cadastre-se</Link></span></a>
                     </div>
                 </div>
             </div>

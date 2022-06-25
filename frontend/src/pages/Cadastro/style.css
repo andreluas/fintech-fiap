@@ -1,0 +1,94 @@
+/* container */
+.cadastro-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+.header-cadastro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+    width: 50%;
+}
+
+.email-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cadastro-btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    height: 80px;
+    width: 100vw;
+    background-color: var(--color-primary);
+}
+
+.password-container {
+    margin: 0 0 10% 0;
+}
+
+/* styles */
+.first-paragraph, .second-paragraph {
+    font-family: 'Kreon';
+    font-weight: 500;
+    font-size: 50px;
+    margin: 0;
+}
+
+.obs-paragraph {
+    font-family: 'Kreon';
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(21, 20, 20);
+    margin: 10px 0 0 0;
+}
+
+.cadastro-effect {
+    color: var(--color-primary);
+}
+
+.input-cadastro {
+    font-family: 'Roboto';
+    font-size: 25px;
+    width: 100%;
+    font-weight: 400;
+    color: rgb(26, 26, 26);
+    border: none;
+    border-bottom: 3px solid var(--color-primary);
+    padding: 10px;
+} 
+
+.cadastro-btn {
+    font-family: 'Kreon';
+    font-size: 35px;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+    width: inherit;
+    text-align: center;
+}
+
+.entrar-paragraph {
+    font-family: 'Kreon';
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(14, 13, 13);
+}
+
+.arrow-btn, .dot-btn {
+    font-size: 50px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}

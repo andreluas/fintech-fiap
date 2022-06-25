@@ -46,3 +46,7 @@ p {
 input, textarea, select {
     outline: 0;
 }
+
+.link {
+    color: black;
+}
