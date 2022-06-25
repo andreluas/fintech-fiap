@@ -6,13 +6,10 @@
 
 ## Desenvolvimento de Telas do Health Track 📝
 
-<br>
-
 ### Com base nas telas que foram desenhadas na Fase 2 (Prototyping), você deve escolher duas e transpô-las, recriando-as utilizando HTML, CSS e Bootstrap.
 
 * Você deverá criar no mínimo 2 telas.
 
-<br>
 
 ### Algumas observações:
 
@@ -20,7 +17,6 @@
 
 * Use e abuse do Bootstrap: deixe o CSS para personalizações que “fujam” dos padrões do framework (com ele é mais rápido!).
 
-<br>
 
 ### Sugestão:
 
@@ -34,7 +30,6 @@
 
 Fique à vontade para criar um layout bem atraente, utilizando fotos, imagens, ícones (mas use o bom senso).
 
-<br>
 
 # 🛠 Tecnologias
 - [x] React
