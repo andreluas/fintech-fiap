@@ -1,0 +1,132 @@
+/* containers and boxes */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+    width: 100vw;
+    height: 100vw;
+    z-index: 1;
+}
+
+.login-background-container {
+    background-image: url(/src/assets/img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    height: 100vh;
+    width: 60vw;
+    z-index: -1;
+}
+
+.fintech-container {
+    background-color: rgba(0, 0, 0, 0.646);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 60vw;
+}
+
+.fintech-login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 40vw;
+}
+
+.credentials-info {
+    margin: 10% 0 50% 0;
+}
+
+.credentials-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn-login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.credentials-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fintech-title {
+    margin-bottom: 8%;
+}
+
+/* styles */
+.title-paragraph {
+    font-family: 'Koho';
+    font-size: 100px;
+    font-weight: 300;
+    color: white;
+}
+
+.description-paragraph {
+    font-family: 'Kreon';
+    font-size: 50px;
+    font-weight: 400;
+    color: white;
+}
+
+.color-effect {
+    color: var(--color-primary);
+}
+
+.login-paragraph {
+    font-family: 'Kreon';
+    font-size: 50px;
+    font-weight: 400;
+    color: var(--color-primary);
+}
+
+.info-obj {
+    font-family: 'Roboto';
+    font-size: 25px;
+    width: 350px;
+    font-weight: 400;
+    color: rgb(26, 26, 26);
+    border: none;
+    border-bottom: 1px solid var(--color-primary);
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.btn-login {
+    text-decoration: none;
+    color: white;
+    font-size: 37px;
+    font-family: 'Kreon';
+    font-weight: 400;
+    text-align: center;
+    line-height: 65px;
+    background-color: var(--color-primary);
+    width: 350px;
+    height: 65px;
+}
+
+.create-acount {
+    color: rgb(54, 54, 54);
+    font-family: 'Kreon';
+    font-weight: 400;
+    font-size: 20px;
+    margin: 15px 0 0 0;
+}
+
+.create-acount-effect {
+    text-decoration: underline;
+}

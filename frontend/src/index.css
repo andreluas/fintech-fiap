@@ -9,6 +9,7 @@ html, body {
     height: 100%;
     font-family: "Roboto", sans-serif;
     background-color: var(--color-secundary);
+    margin: 0;
 }
 
 #root {
@@ -36,4 +37,12 @@ html, body {
 
 a {
     text-decoration: none;
+}
+
+p {
+    margin: 0;
+}
+
+input, textarea, select {
+    outline: 0;
 }
