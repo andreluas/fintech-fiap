@@ -50,5 +50,5 @@ yarn start
 
 # 📄 Telas do projeto
 <p align="center">
-<img src = "./img/prototipo.png" alt="prototipo">
+<img src = "[./img/prototipo.png](https://raw.githubusercontent.com/andreluas/fintech-fiap/main/src/assets/img/prototype.png)" alt="prototipo">
 </p>
