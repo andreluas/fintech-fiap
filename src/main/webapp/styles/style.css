@@ -1,0 +1,705 @@
+@import
+	url("https://fonts.googleapis.com/css2?family=KoHo:wght@300;400;500;600;700&family=Kreon:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;700&family=Roboto:wght@300;400;500;700&display=swap")
+	;
+
+/* RESET CSS */
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Kreon", sans-serif;
+}
+
+a, a:hover {
+	text-decoration: none;
+}
+
+/* MENU CONTAINER */
+.nav-container {
+	background-color: #262626;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 80px;
+}
+
+.nav-logo {
+	text-decoration: none;
+	font-family: "KoHo";
+	font-weight: 400;
+	font-size: 50px;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	color: #e96464;
+}
+
+.nav-logo:hover {
+	color: #e96464;
+}
+
+.menu-container ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: auto;
+	margin: 0;
+}
+
+.menu-container ul li {
+	list-style: none;
+	margin: 0 20px 0 20px;
+}
+
+.menu-container ul li a {
+	text-decoration: none;
+	list-style: none;
+	color: #ffff;
+	font-family: "KoHo";
+	font-weight: 400;
+	font-size: 20px;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.menu-container ul li a:hover {
+	color: #e96464;
+}
+
+@media ( max-width : 800px) {
+	.nav-container {
+		flex-direction: column;
+		height: auto;
+	}
+	.nav-logo {
+		margin: 15px;
+	}
+	.menu-container ul li {
+		margin-bottom: 20px;
+		padding: 5px;
+	}
+}
+
+@media ( max-width : 500px) {
+	.menu-container ul li a {
+		font-size: 15px;
+	}
+}
+
+/* FOOTER CONTAINER */
+.footer-container {
+	position: absolute;
+	bottom: 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #262626;
+	height: 80px;
+	width: 100vw;
+}
+
+.copyright-container {
+	color: #ffff;
+	font-size: 15px;
+	font-family: "Kreon", sans-serif;
+	letter-spacing: 2px;
+}
+
+.copyright-container p {
+	margin: 0px;
+}
+
+.social-media-container i {
+	cursor: pointer;
+	font-size: 30px;
+	color: #e96464;
+	margin: 0 20px 0px 20px;
+}
+
+.social-media-container i:hover {
+	color: #e65050;
+}
+
+@media ( max-width : 500px) {
+	.footer-container {
+		flex-direction: column;
+		padding: 10px 0 10px 0;
+	}
+	.copyright-container {
+		margin: 10px;
+	}
+	.social-media-container i {
+		font-size: 25px;
+		margin-bottom: 10px;
+	}
+}
+
+/* LOGIN */
+.login-container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 100vh;
+	width: auto;
+}
+
+.login-background-container {
+	height: 100vh;
+	width: 60vw;
+	background-image:
+		url("https://raw.githubusercontent.com/andreluas/fintech-fiap/develop/src/assets/img/background.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: -1;
+	position: absolute;
+	left: 0;
+}
+
+.login-headline-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+	width: 60vw;
+	background-color: rgba(0, 0, 0, 0.646);
+}
+
+.login-signin-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+	width: 40vw;
+}
+
+.login-signin-container h1 {
+	font-family: "Kreon";
+	font-size: 50px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #e96464;
+	margin-bottom: 20px;
+}
+
+.login-headline-container h1 {
+	font-family: "Koho";
+	font-size: 100px;
+	font-weight: 300;
+	color: #fff;
+	margin-bottom: 50px;
+}
+
+.login-headline-container p {
+	font-family: "Kreon";
+	font-size: 50px;
+	font-weight: 400;
+	color: white;
+}
+
+.color-effect {
+	color: #e96464;
+}
+
+.login-form-btn {
+	text-decoration: none;
+	color: #fff;
+	font-size: 37px;
+	font-family: "Kreon";
+	font-weight: 400;
+	text-align: center;
+	background-color: #e96464;
+	width: 350px;
+	height: 65px;
+	border: none;
+	cursor: pointer;
+	margin: 100px 0px 10px 0px;
+}
+
+.login-form-btn:hover {
+	background-color: #e65050;
+}
+
+.login-signin-container p {
+	color: #262626;
+}
+
+.login-signin-container a {
+	color: #262626 !important;
+	cursor: pointer !important;
+	text-decoration: underline !important;
+}
+
+.login-signin-container a:hover {
+	color: #000000 !important;
+}
+
+.form-login {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.form-login input {
+	font-family: "Roboto";
+	font-size: 25px;
+	width: 100%;
+	font-weight: 400;
+	border: none;
+	color: rgb(26, 26, 26);
+	border-bottom: 1px solid #ed8484;
+	padding: 10px;
+	margin: 10px;
+}
+
+.form-login input:focus {
+	box-shadow: none;
+	outline: 0;
+}
+
+@media ( max-width : 1000px) {
+	.login-background-container {
+		display: none;
+	}
+	.login-headline-container {
+		display: none;
+	}
+}
+
+/* REGISTER */
+.register-signin-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+	width: 100vw;
+}
+
+.register-signin-container h1 {
+	font-family: "Kreon";
+	font-size: 50px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #e96464;
+	margin-bottom: 20px;
+}
+
+/* 404 PAGE */
+.container-four-zero-four {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100vw;
+}
+
+.page-404 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 40px 0;
+	background: #fff;
+}
+
+.page-404 img {
+	width: 100%;
+}
+
+.four-zero-four-bg {
+	background-image:
+		url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+	background-position: center;
+	height: 400px;
+	width: 900px;
+}
+
+.four-zero-four-bg h1 {
+	font-size: 80px;
+}
+
+.four-zero-four-bg h3 {
+	font-size: 80px;
+}
+
+.link-404 {
+	color: #fff !important;
+	padding: 10px 20px;
+	background: #e96464;
+	margin: 20px 0;
+	display: inline-block;
+	margin-bottom: 50px;
+}
+
+.contant-box-404 a {
+	width: 200px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.contant-box-404 a:hover {
+	text-decoration: none;
+}
+
+.contant-box-404 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: -50px;
+}
+
+/* CADASTRO ENTRADA */
+.entradas-form-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 80vh;
+	width: 100vw;
+}
+
+.entradas-form-container h1 {
+	font-family: "Kreon", sans-serif;
+	font-weight: 600;
+	font-size: 40px;
+	color: #262626;
+}
+
+.entradas-form-container p {
+	font-family: "Kreon", sans-serif;
+	font-weight: 300;
+	font-size: 30px;
+	color: #262626;
+	border-bottom: 3px solid #e96464;
+}
+
+.color-effect {
+	color: #e96464;
+}
+
+.entradas-form-container form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.form-group label {
+	display: flex;
+	font-family: "Kreon";
+	font-weight: 600;
+	font-size: 30px;
+	color: #262626;
+}
+
+.entrada-input {
+	font-family: "Kreon";
+	font-weight: 400;
+	font-size: 30px;
+	color: #e96464;
+	width: 350px;
+	border: none;
+	border-bottom: 3px solid #e96464;
+}
+
+.entrada-input:focus {
+	box-shadow: 0 0 0 0;
+	outline: 0;
+}
+
+.entradas-form-btn {
+	text-decoration: none;
+	color: #fff;
+	font-size: 35px;
+	font-family: "Kreon";
+	font-weight: 400;
+	text-align: center;
+	background-color: #e96464;
+	width: 300px;
+	height: 65px;
+	border: none;
+	cursor: pointer;
+	margin: 70px 5px 10px 5px;
+}
+
+.entradas-form-btn:hover {
+	background-color: #e65050;
+}
+
+.entradas-form-btn.cancelar {
+	line-height: 65px;
+	color: #fff;
+}
+
+.entrada-edit-form-buttons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media ( max-width : 900px) {
+	.entrada-edit-form-buttons {
+		flex-direction: column;
+	}
+	.entradas-form-btn {
+		margin: 30px 5px 10px 5px;
+	}
+	.entradas-form-btn.cancelar {
+		margin-top: 10px;
+	}
+}
+
+@media ( max-width : 800px) {
+	.entradas-form-container {
+		height: 70vh;
+	}
+}
+
+/* ENTRADAS LISTAGEM */
+.entradas-list-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 70px;
+}
+
+.entradas-list-container h1 {
+	font-family: "Kreon", sans-serif;
+	font-weight: 600;
+	font-size: 40px;
+	color: #e96464;
+}
+
+.entradas-list-container p {
+	font-family: "Kreon", sans-serif;
+	font-weight: 300;
+	font-size: 30px;
+	color: #262626;
+}
+
+.color-effect {
+	color: #e96464;
+}
+
+.custom-scrollbar {
+	position: relative;
+	height: 400px;
+	overflow: auto;
+}
+
+.table-wrapper-scroll-y {
+	display: block;
+}
+
+.table {
+	text-align: center;
+	margin: 40px 0;
+	width: 70vw;
+	overflow: auto;
+	height: 200px;
+}
+
+.table th {
+	font-family: "Kreon", sans-serif;
+	font-weight: 600;
+	font-size: 30px;
+	color: #262626;
+}
+
+.table td {
+	font-family: "Kreon", sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	color: #e96464;
+}
+
+.entradas-list-container a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 30px;
+	font-family: "Kreon";
+	font-weight: 400;
+	text-align: center;
+	background-color: #e96464;
+	width: 350px;
+	height: 65px;
+	line-height: 65px;
+	border: none;
+	cursor: pointer;
+	margin: 40px 0px 20px 0px;
+}
+
+.entradas-list-container a:hover {
+	background-color: #e65050;
+}
+
+.form-edit-btn {
+	font-size: 20px !important;
+	padding: 10px;
+	border-radius: 15px;
+}
+
+.entradas-list-button-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.entradas-list-container-buttons {
+	width: 100px !important;
+	height: 45px !important;
+	line-height: 45px !important;
+	font-size: 20px !important;
+	text-decoration: none !important;
+	color: #fff !important;
+	font-family: "Kreon" !important;
+	font-weight: 400 !important;
+	text-align: center !important;
+	background-color: #e96464 !important;
+	border-radius: 10px;
+	margin: 0px 10px !important;
+}
+
+.entradas-list-button-container button {
+	border: none;
+	cursor: pointer;
+}
+
+@media ( max-width : 800px) {
+	.entradas-list-container {
+		margin-top: 40px;
+	}
+}
+
+/* SCROLL STYLES */
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: #262626;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #e96464;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #e65050;
+}
+
+/* HOME */
+.home-page-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	margin-top: 100px;
+}
+
+.home-page-title {
+	margin: 0px 50px;
+}
+
+.home-page-title h1 {
+	font-family: "Kreon", sans-serif;
+	font-size: 50px;
+	font-weight: 700;
+	color: #262626;
+	margin-bottom: 30px;
+}
+
+.home-page-title p {
+	font-family: "Kreon", sans-serif;
+	font-size: 40px;
+	font-weight: 400;
+	color: #262626;
+}
+
+.color-effect {
+	color: #e96464;
+}
+
+.home-page-image img {
+	display: block;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+	margin: 0px 50px;
+	background-repeat: no-repeat
+}
+
+@media ( max-width : 1350px) {
+	.home-page-image img {
+		height: 400px;
+	}
+	.home-page-container {
+		margin-top: 200px;
+	}
+}
+
+@media ( max-width : 1200px) {
+	.home-page-container {
+		margin-top: 200px;
+	}
+	.home-page-image img {
+		height: 380px;
+	}
+	.home-page-title h1 {
+		font-size: 48px;
+	}
+	.home-page-title p {
+		font-size: 38px;
+	}
+}
+
+@media ( max-width : 1000px) {
+	.home-page-title h1 {
+		font-size: 48px;
+	}
+	.home-page-title p {
+		font-size: 38px;
+	}
+	.home-page-image {
+		display: none;
+	}
+}
+
+/* CONTACT */
+.contact-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 200px;
+}
+
+.contact-container h1 {
+	font-family: "Kreon", sans-serif;
+	font-size: 50px;
+	font-weight: 700;
+	color: #262626;
+	margin-top: 50px;
+}
+
+.contact-container p {
+	font-family: "Kreon", sans-serif;
+	font-size: 40px;
+	font-weight: 400;
+	color: #262626;
+}
+
+@media ( max-width : 600px) {
+	.contact-container h1 {
+		font-size: 45px;		
+	}
+	
+	.contact-container p {
+		font-size: 35px;
+	}
+	
+	.contact-container img {
+		width: 200px;
+	}
+}
