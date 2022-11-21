@@ -19,7 +19,7 @@
 		</div>
 		<div class="home-page-image">
 			<img
-				src="https://raw.githubusercontent.com/andreluas/fintech-fiap/c9f7afd1e1fc99591a880d3c1e4cdc929b3c8b90/src/assets/img/home.svg"
+				src="https://raw.githubusercontent.com/andreluas/fintech-fiap/e56c226b53f7fa3d445d824bf979a93c05b91f3a/src/assets/img/home.svg"
 				alt="home-image" />
 		</div>
 	</div>

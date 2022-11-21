@@ -11,7 +11,7 @@
 	<%@ include file="menu.jsp"%>
 	<div class="contact-container">
 		<img
-			src="https://raw.githubusercontent.com/andreluas/fintech-fiap/c9f7afd1e1fc99591a880d3c1e4cdc929b3c8b90/src/assets/img/mail.svg"
+			src="https://raw.githubusercontent.com/andreluas/fintech-fiap/e56c226b53f7fa3d445d824bf979a93c05b91f3a/src/assets/img/mail.svg"
 			alt="mail-image" />
 		<h1>entre em contato conosco</h1>
 		<p>
